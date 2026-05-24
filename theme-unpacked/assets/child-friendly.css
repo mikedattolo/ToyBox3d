@@ -1,0 +1,29 @@
+/* The Toy Box child-friendly refresh */
+:root{--tb-cream:#fffaf2;--tb-coral:#ee765f;--tb-coral-dark:#d94f3d;--tb-sun:#f7b743;--tb-sky:#78c2d4;--tb-mint:#9fb88e;--tb-lilac:#c9b6f2;--tb-blueberry:#315a8a;--tb-ink:#31413b;--tb-paper:#fffdf8;--tb-soft-shadow:0 18px 44px rgba(49,65,59,.10);--tb-play-shadow:0 10px 0 rgba(49,65,59,.08),0 20px 38px rgba(238,118,95,.16)}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(circle at 8% 8%,rgba(247,183,67,.22),transparent 22rem),radial-gradient(circle at 92% 14%,rgba(120,194,212,.20),transparent 24rem),radial-gradient(circle at 16% 84%,rgba(201,182,242,.18),transparent 22rem),radial-gradient(circle at 82% 100%,rgba(159,184,142,.18),transparent 26rem),linear-gradient(180deg,#fffdf8 0%,var(--tb-cream) 52%,#f7fbf3 100%);color:var(--tb-ink)}
+#header-group{background:rgba(255,253,248,.95);border-bottom:3px dashed rgba(159,184,142,.42);box-shadow:0 10px 28px rgba(49,65,59,.06);backdrop-filter:blur(14px)}
+#header-group img[src*="ChatGPT_Image_May_18_2026_10_22_45_PM"],#header-group a[href="/"] img,#header-group .logo img,#header-group .header__heading-logo img{content:url("https://cdn.shopify.com/s/files/1/0729/1751/6419/files/the-toy-box-logo.png?v=1779571687");width:auto!important;max-height:118px!important;object-fit:contain!important}
+h1,h2,h3,.h1,.h2,.h3{letter-spacing:0;text-wrap:balance}
+h1,.h1{max-width:11ch;color:var(--tb-blueberry)!important;text-shadow:0 3px 0 rgba(255,255,255,.88)}
+h2,.h2,h3,.h3{color:var(--tb-ink)}
+.button,button,[type="button"],[type="submit"],.shopify-payment-button__button{border-radius:999px!important;font-weight:800;box-shadow:var(--tb-play-shadow);transition:transform .16s ease,box-shadow .16s ease,filter .16s ease}
+.button:hover,button:hover,[type="button"]:hover,[type="submit"]:hover,.shopify-payment-button__button:hover{transform:translateY(-2px) rotate(-.25deg);filter:saturate(1.08);box-shadow:0 10px 0 rgba(49,65,59,.08),0 22px 38px rgba(238,118,95,.20)}
+.button:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--tb-sun)!important;outline-offset:3px}
+.product-card,.collection-card,.resource-card,.card,.product-card__content,.product-card__image-wrapper,.card__media,.media,img{border-radius:24px}
+.product-card,.collection-card,.resource-card,.card{background:var(--tb-paper);border:2px solid rgba(159,184,142,.26);box-shadow:var(--tb-soft-shadow);overflow:hidden}
+.product-card img,.collection-card img,.resource-card img,.card img{transition:transform .22s ease}.product-card:hover img,.collection-card:hover img,.resource-card:hover img,.card:hover img{transform:scale(1.025) rotate(.25deg)}
+.product-card,.collection-card{position:relative}.product-card::after,.collection-card::after{content:"";position:absolute;inset:auto 1.1rem 1rem auto;width:2.1rem;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 35%,#fff 0 18%,transparent 19%),var(--tb-sun);opacity:.72;pointer-events:none}
+.price,.product-price,[data-price]{font-weight:800;color:var(--tb-coral-dark)}
+input,textarea,select,.quantity-selector,.variant-picker__option,.variant-option,.popover,details[open]>summary{border-radius:18px!important}
+.badge,.product-card__badge,.sale-badge{border-radius:999px!important;font-weight:700;letter-spacing:.01em}
+[id*="toybox_value_strip"] .group-block{background:linear-gradient(180deg,#ffffff 0%,#fff7e8 100%);border:2px solid rgba(234,127,95,.20);border-radius:26px;box-shadow:0 12px 0 rgba(49,65,59,.05),0 22px 42px rgba(49,65,59,.08)}
+[id*="toybox_value_strip"] .group-block:nth-child(2){background:linear-gradient(180deg,#ffffff 0%,#eef9fb 100%);border-color:rgba(120,194,212,.35)}
+[id*="toybox_value_strip"] .group-block:nth-child(3){background:linear-gradient(180deg,#ffffff 0%,#f3efff 100%);border-color:rgba(201,182,242,.40)}
+[id*="toybox_value_strip"] h3{margin-block:0;color:var(--tb-blueberry)!important}
+[id*="toybox_value_strip"] p{margin-block:0;max-width:22rem}
+main .shopify-section{position:relative}main .shopify-section:nth-child(odd)::before{content:"";position:absolute;inset:1rem;pointer-events:none;opacity:.24;background-image:radial-gradient(circle,var(--tb-sun) 0 4px,transparent 5px),radial-gradient(circle,var(--tb-sky) 0 3px,transparent 4px),radial-gradient(circle,var(--tb-mint) 0 3px,transparent 4px),radial-gradient(circle,var(--tb-lilac) 0 4px,transparent 5px);background-size:96px 96px,130px 130px,160px 160px,190px 190px;background-position:0 0,30px 40px,70px 10px,110px 70px;z-index:0}main .shopify-section>*{position:relative;z-index:1}
+.marquee,[marquee-component],.marquee-section{border-block:3px dashed rgba(255,250,242,.78);font-weight:800;text-transform:none}
+.media-with-content :is(p,.rte),.section :is(p,.rte){font-size:clamp(1rem,1.2vw,1.22rem);line-height:1.55}.media-with-content [style*="background"],.section [style*="background"]{border-radius:28px}.media-with-content .content,.media-with-content [class*="content"]{isolation:isolate}
+@media(max-width:749px){#header-group img[src*="ChatGPT_Image_May_18_2026_10_22_45_PM"],#header-group a[href="/"] img,#header-group .logo img,#header-group .header__heading-logo img{max-height:86px!important}h1,.h1{font-size:clamp(2.45rem,13vw,4.3rem)!important;max-width:10ch}.product-card,.collection-card,.resource-card,.card,[id*="toybox_value_strip"] .group-block{border-radius:22px}main .shopify-section:nth-child(odd)::before{inset:.5rem;opacity:.18;background-size:82px 82px,120px 120px,150px 150px,170px 170px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
