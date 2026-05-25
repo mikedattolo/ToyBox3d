@@ -17,11 +17,11 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/e0a132e472a284391cbfb6733fd4f515.png",
+            "image": "shopify://shop_images/the-toy-box-logo.png",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
-            "image_position": "cover",
+            "image_position": "contain",
             "video_position": "cover"
           },
           "blocks": {}
